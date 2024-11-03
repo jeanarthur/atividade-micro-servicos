@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "atividade-micro-servicos",
+    "collectionId": "244d1738-db11-4010-8b64-83d38092cee9",
+    "dateExported": "2024-11-03T16:46:33.403Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "35bd9317-37a9-4b4e-b39d-335e32b105c0",
+            "colId": "244d1738-db11-4010-8b64-83d38092cee9",
+            "containerId": "",
+            "name": "Rota /cadastrar",
+            "url": "http://localhost:8080/cadastrar",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-11-03T16:46:15.739Z",
+            "modified": "2024-11-03T16:46:15.739Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Usuario1\",\n  \"email\": \"usuario@email.com\",\n  \"senha\": \"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f5a73420-c1a0-4f77-9609-df6771409ccb",
+            "colId": "244d1738-db11-4010-8b64-83d38092cee9",
+            "containerId": "",
+            "name": "Rota /",
+            "url": "http://localhost:8080/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-03T16:46:23.216Z",
+            "modified": "2024-11-03T16:46:23.216Z",
+            "headers": []
+        }
+    ],
+    "ref": "SzYd_t53XR77tHEtsUX1UJKfp6Pf3q51ce06Gb_Qb_iVyv-fJ7MbJJaIMeqqnVftAkY9UMVmtIDqTmtLxFssUg"
+}
